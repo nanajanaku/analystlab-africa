@@ -19,21 +19,19 @@ All analysis was performed using **SQL Server Management Studio (SSMS)** and das
 ## 📂 Repository Structure
 
 ```
-analystlab-africa/
+AnalystLab Africa — Data Analytics Project/
 │
-├── 📁 datasets/
-│   ├── Netflix_Cleaned.csv
-│   └── OnlineRetail_Cleaned.csv
+├── 📁 Cleaned Dataset/
+│   ├── netflix-cleaned.csv
+│   └── onlineretail_cleaned.csv
 │
-├── 📁 dashboards/
-│   ├── Netflix_Dashboard.png
-│   └── OnlineRetail_Dashboard.png
+├── 📁 Insight Report/
+│   ├── AnalystLab_Africa_Full_Documentation.docx
+│   └── AnalystLab_Africa_Insight_Report.docx
 │
-├── 📁 reports/
-│   ├── AnalystLab_Africa_Insight_Report.docx
-│   └── AnalystLab_Africa_Full_Documentation.docx
-│
-└── README.md
+└── 📁 Power BI Dashboard/
+    ├── Netflix_dashboard.png
+    └── onlineretail_Dashboard.png
 ```
 
 ---
@@ -132,7 +130,7 @@ analystlab-africa/
 ## 📊 Dashboards
 
 ### Netflix Content Analysis Dashboard
-![Netflix Dashboard](dashboards/Netflix_Dashboard.png)
+![Netflix Dashboard](Power%20BI%20Dashboard/Netflix_dashboard.png)
 
 **Theme:** Black (#141414) and Netflix Red (#E50914)
 **KPI Cards:** Total Titles (8,787) | Total Movies (6,124) | Total TV Shows (2,663) | Total Directors (4,524)
@@ -142,7 +140,7 @@ analystlab-africa/
 ---
 
 ### Online Retail Sales Dashboard
-![Online Retail Dashboard](dashboards/OnlineRetail_Dashboard.png)
+![Online Retail Dashboard](Power%20BI%20Dashboard/onlineretail_Dashboard.png)
 
 **Theme:** Deep Navy (#0A1628) and Bright Blue (#1F8EF1)
 **KPI Cards:** Total Revenue (£9.75M) | Total Countries (38) | Total Orders (23,796) | Total Customers (4,372)
@@ -153,14 +151,14 @@ analystlab-africa/
 
 ## 📦 Deliverables
 
-| Deliverable | Status |
-|---|---|
-| Cleaned Netflix Dataset (CSV) | ✅ Complete |
-| Cleaned Online Retail Dataset (CSV) | ✅ Complete |
-| Netflix Power BI Dashboard | ✅ Complete |
-| Online Retail Power BI Dashboard | ✅ Complete |
-| 1-Page Insight Report (Word) | ✅ Complete |
-| Full Project Documentation (Word) | ✅ Complete |
+| Deliverable | Location | Status |
+|---|---|---|
+| Cleaned Netflix Dataset (CSV) | Cleaned Dataset/ | ✅ Complete |
+| Cleaned Online Retail Dataset (CSV) | Cleaned Dataset/ | ✅ Complete |
+| Netflix Power BI Dashboard (PNG) | Power BI Dashboard/ | ✅ Complete |
+| Online Retail Power BI Dashboard (PNG) | Power BI Dashboard/ | ✅ Complete |
+| 1-Page Insight Report (Word) | Insight Report/ | ✅ Complete |
+| Full Project Documentation (Word) | Insight Report/ | ✅ Complete |
 
 ---
 

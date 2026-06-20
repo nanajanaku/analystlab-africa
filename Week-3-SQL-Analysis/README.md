@@ -108,7 +108,8 @@ Answered 6 key business questions:
 
 **Nanahawah**  
 Data Analytics Intern — AnalystLab Africa  
-[GitHub](https://github.com/nanajanaku) |([LinkedIn](https://www.linkedin.com/in/nanahawah)
+[GitHub](https://github.com/nanajanaku)
+[LinkedIn](https://www.linkedin.com/in/nana-gold-56b63b329/)
 
 ---
 

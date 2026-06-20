@@ -1,4 +1,4 @@
-# 📊 Task 3 — SQL Analysis: Sales Dataset
+# 📊 Week 3 — SQL Analysis: Sales Dataset
 ### AnalystLab Africa Data Analytics Internship
 
 ---

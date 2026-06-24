@@ -1,1 +1,91 @@
+# 🦠 COVID-19 Global Analytics Dashboard
+
+## Project Overview
+An interactive Power BI dashboard analysing the global impact of COVID-19 using the **Our World in Data (OWID)** dataset. This project was completed as part of the **AnalystLab Africa Data Analytics Internship**.
+
+---
+
+## 📊 Dataset
+| Detail | Info |
+|---|---|
+| Source | Our World in Data (OWID) |
+| File | owid-covid-data.csv |
+| Rows | 429,000+ |
+| Columns Used | 12 (selected from 67) |
+| Date Range | January 2020 – August 2024 |
+
+---
+
+## 🧹 Data Cleaning (Power Query)
+- Removed 55 irrelevant columns, retaining 12 key fields
+- Changed `date` column from Text to Date format
+- Replaced null values in vaccination columns with 0
+- Changed vaccination columns from Text to Whole Number type
+- Filtered out aggregated rows (World, income groups) using continent field
+
+---
+
+## 📐 DAX Measures Created
+| Measure | Formula |
+|---|---|
+| Total Cases | `SUM(total_cases)` |
+| Total Deaths | `SUM(total_deaths)` |
+| Death Rate | `DIVIDE([Total Deaths], [Total Cases], 0)` |
+| Total Vaccinations | `SUM(total_vaccinations)` |
+| Recovery Rate | `DIVIDE([Total Cases] - [Total Deaths], [Total Cases], 0)` |
+| Total Countries | `DISTINCTCOUNT(location)` |
+
+---
+
+## 📈 Dashboard Features
+- **5 KPI Cards** — Total Cases, Total Deaths, Death Rate, Total Vaccinations, Total Countries
+- **5 Charts:**
+  - Global COVID Cases Trend (Line Chart)
+  - Daily New Cases (Line Chart)
+  - Top 10 Countries by Total Cases (Bar Chart)
+  - Vaccination Progress by Continent (Column Chart)
+  - Total Deaths by Continent (Donut Chart)
+- **2 Slicers** — Continent (Tile) and Date Range (Between)
+
+---
+
+## 🔍 Key Insights
+1. **USA led globally** with the highest confirmed cases (~100bn cumulative)
+2. **Omicron peak (early 2022)** recorded ~2bn daily new cases globally
+3. **Global death rate: 1.12%** of all confirmed cases resulted in death
+4. **Asia dominated vaccinations** with 4T+ doses administered
+5. **Europe accounted for ~29%** of global deaths despite smaller population share
+6. **255 countries/regions** tracked across the full pandemic timeline
+
+---
+
+## 🎨 Dashboard Design
+- Background: Dark Navy `#0A0A2E`
+- Accent Color: Bright Blue `#00B4D8`
+- Tool: Microsoft Power BI Desktop
+
+---
+
+## 📁 Files in this Folder
+| File | Description |
+|---|---|
+| `COVID19_Dashboard_Nanahawah.pbix` | Power BI Dashboard file |
+| `COVID19_Dashboard_Nanahawah.pptx` | Presentation slides (9 slides) |
+| `dashboard_screenshot.png` | Dashboard preview image |
+| `README.md` | Project documentation |
+
+---
+
+## 🛠 Tools Used
+- Microsoft Power BI Desktop
+- Power Query (Data Cleaning)
+- DAX (Data Analysis Expressions)
+- Our World in Data Dataset
+
+---
+
+## 👩‍💻 Author
+**Nanahawah**  
+Data Analytics Intern — AnalystLab Africa  
+[LinkedIn](https://linkedin.com/in/nana-gold-56b63b329/) | [GitHub](https://github.com/nanajanaku)
 

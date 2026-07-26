@@ -73,7 +73,7 @@ Full recommendations are detailed in the [final report](GDP_Growth_Economic_Perf
 
 ## 🎥 Demo Video
 
-[Link to be added]
+[🎥 [Watch the full walkthrough on Loom](https://www.loom.com/share/bb49487343ff4bff90d87698ef16c2c2)]
 
 ## 🔗 Connect
 
